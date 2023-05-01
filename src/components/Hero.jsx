@@ -23,7 +23,9 @@ function Hero() {
               <p className='text-2xl font-semibold text-white'>Profesjonalne podejście do klienta</p>
               <h1 className='py-3 text-center lg:text-left text-5xl lg:text-7xl font-bold text-white'>Chip Boost & Tuning</h1>
               <p className='text-2xl font-semibold text-white'>Tym jest właśnie nasza firma.</p>
-              <button className='lg:py-3 md:px-6 mt-3 px-5 py-3 max-w-[240px] text-white font-semibold'>Skontaktuj się</button>
+              <a href='tel:123-456-7890'>
+                <button className='lg:py-3 md:px-6 mt-3 px-5 py-3 max-w-[240px] text-white font-semibold'>Skontaktuj się</button>
+              </a>
             </div>
             <div className='flex justify-center'>
               <img
