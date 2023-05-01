@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch"
 
 function PortfolioPrev() {
   const { loading, error, data } = useFetch(
-    "https://strapi-production-a18c.up.railway.app/api/reviews?populate=*&?pagination[start]=0&pagination[limit]=3",
+    "https://strapi-production-a18c.up.railway.app/api/reviews?sort[1]=datePublished:DESC&populate=*&pagination[limit]=3",
   )
 
   if (loading) return <p className='text-zinc-250'>Loading...</p>
@@ -18,14 +18,20 @@ function PortfolioPrev() {
         <h1 className='text-5xl font-semibold text-white text-center'>Nasze wyniki</h1>
       </div>
       <div className='lg:w-full w-full flex flex-col justify-center items-center'>
-        <div className='flex flex-col lg:flex-row justify-center items-center w-[1/4] border'>
+        <div className='flex flex-col lg:flex-row justify-center items-center w-[1/4]'>
           {/* <li key={blogPost.id}>{blogPost.title}</li> */}
           {/* <img className='p-2 md:w-1/4 md:rounded-3xl rounded-2xl w-[40%]' src={placeholder} alt='' />
           <img className='p-2 md:w-1/4 md:rounded-3xl rounded-2xl w-[40%]' src={placeholder} alt='' />
           <img className='p-2 md:w-1/4 md:rounded-3xl rounded-2xl w-[40%]' src={placeholder} alt='' /> */}
           {data.data.map((review) => (
             <div className='flex justify-center items-center'>
-              <img className='md:h-1/4 md:rounded-3xl rounded-2xl h-[40%] w-[40%]' src={review.attributes.splash.data.attributes.url} alt='img' />
+              <a className='flex justify-center mb-6' href='/Blog'>
+                <img
+                  className='md:h-1/4 md:rounded-3xl rounded-2xl h-[80%] w-[80%] hover:scale-105 transition-all ease-in-out duration-200'
+                  src={review.attributes.splash.data.attributes.url}
+                  alt='img'
+                />
+              </a>
             </div>
           ))}
         </div>
