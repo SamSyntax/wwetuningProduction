@@ -1,13 +1,19 @@
 import placeholder from "../assets/placeholder.jpg"
 import React from "react"
 import useFetch from "../hooks/useFetch"
+import { ScaleLoader } from "react-spinners"
 
 function PortfolioPrev() {
   const { loading, error, data } = useFetch(
     "https://strapi-production-a18c.up.railway.app/api/reviews?sort[1]=datePublished:DESC&populate=*&pagination[limit]=3",
   )
 
-  if (loading) return <p className='text-zinc-250'>Loading...</p>
+  if (loading)
+    return (
+      <div className='w-full h-screen bg-inherit flex justify-center items-center'>
+        <ScaleLoader css={override} size={250} color={"#eb2f4b"} loading={loading} />
+      </div>
+    )
   if (error) return <p className='text-zinc-250'>Error</p>
 
   console.log(data)
