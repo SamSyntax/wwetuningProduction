@@ -1,4 +1,3 @@
-import placeholder from "../assets/placeholder.jpg"
 import React from "react"
 import useFetch from "../hooks/useFetch"
 import { ScaleLoader } from "react-spinners"
@@ -8,6 +7,12 @@ function PortfolioPrev() {
     "https://strapi-production-a18c.up.railway.app/api/reviews?sort[1]=datePublished:DESC&populate=*&pagination[limit]=3",
   )
 
+  const override: CSSProperties = {
+    display: "block",
+    margin: "0 auto",
+    borderColor: "red",
+  }
+
   if (loading)
     return (
       <div className='w-full h-screen bg-inherit flex justify-center items-center'>
@@ -15,8 +20,6 @@ function PortfolioPrev() {
       </div>
     )
   if (error) return <p className='text-zinc-250'>Error</p>
-
-  console.log(data)
 
   return (
     <div id='Portfolio' className='w-full h-screen flex flex-col justify-center lg:px-24 px-12 lg:mt-auto  section flex-grow'>

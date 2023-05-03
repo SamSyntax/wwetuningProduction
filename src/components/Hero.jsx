@@ -1,16 +1,7 @@
 import React from "react"
-// import {
-//     CloudUploadIcon,
-//     DatabaseIcon,
-//     PaperAirplaneIcon,
-//     ServerIcon
-// } from '@heroicons/react/solid'
 
-// import bgimg from '../assets/cyber-bg.png'
 import heroimg from "../assets/heroimg.png"
 import logo from "../assets/logo.png"
-
-// w-screen h-screen bg-zinc-950 px-16 flex align-middle items-center flex-wrap
 
 function Hero() {
   return (

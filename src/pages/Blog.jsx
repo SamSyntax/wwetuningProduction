@@ -2,38 +2,7 @@ import React from "react"
 import Navbar from "../components/Navbar"
 import useFetch from "../hooks/useFetch"
 
-// export async function getStrapiProps(context) {
-//   const fetchParams = {
-//     method: "post",
-//     headers: {
-//       "content-type": "application/json",
-//     },
-//     body: JSON.stringify({
-//       query: `{
-//       reviews {
-//   	data {
-//       attributes {
-//         title
-//         body
-//         image {
-//           data {
-//             attributes {
-//               url
-//             }
-//           }
-//         }
-//         slug
-//       }
-//     }
-//   }}`,
-//     }),
-//   }
-//   const res = await fetch(`$(http://localhost:1337)/graphql`, fetchParams)
-//   const data = await res.json()
-//   return {
-//     props: {},
-//   }
-// }
+
 
 export default function Blog() {
   const { loading, error, data } = useFetch("https://strapi-production-a18c.up.railway.app/api/reviews?sort[1]=datePublished:DESC&populate=*")
