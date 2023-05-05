@@ -12,8 +12,8 @@ function Hero() {
             <div className='flex flex-col justify-center align-middle lg:text-left text-center lg:items-start items-center  w-full px-2 text-white'>
               <img className='w-[40%]' src={logo} alt='' />
               <p className='text-2xl font-semibold text-white'>Profesjonalne podejście do klienta</p>
-              <h1 className='py-3 text-center lg:text-left text-5xl lg:text-7xl font-bold text-white'>Chip Boost & Tuning</h1>
-              <p className='text-2xl font-semibold text-white'>Tym jest właśnie nasza firma.</p>
+              <h1 className='py-3 text-center lg:text-left text-5xl lg:text-7xl font-bold text-white'>Chiptuning</h1>
+              <p className='text-2xl font-semibold text-white'>Eco tuning samochodów ciężarowych oraz maszyn rolniczych.</p>
               <a href='tel:123-456-7890'>
                 <button className='lg:py-3 md:px-6 mt-3 px-5 py-3 max-w-[240px] text-white font-semibold'>Skontaktuj się</button>
               </a>
