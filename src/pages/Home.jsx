@@ -5,6 +5,7 @@ import Nav from "../components/Navbar2"
 import PortfolioPrev from "../components/PortfolioPrev"
 import Services from "../components/Services"
 import bgmain from "../assets/bgmain.png"
+import License from "../components/License"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Nav />
       <Hero />
       <PortfolioPrev />
+      <License />
       <Services />
       <Contact />
     </div>
