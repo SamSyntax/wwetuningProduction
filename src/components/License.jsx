@@ -10,7 +10,7 @@ function License() {
         <div className='w-[50vw] h-full'>
           <a href='https://www.evc.de/en/check_evc_license.asp?k=%2bcvnUR%2frr%2bEuBFY%2fdmnN9A%3d%3d'>
             <img
-              className='w-full lg:w-2/3'
+              className='relative w-full lg:w-2/3 rounded-lg hover:rounded-[1rem] opacity-75 hover:scale-105 transition-all ease-in-out duration-700'
               src='https://www.evc.de/common/check_evc_license_image.asp?k=%2bcvnUR%2frr%2bEuBFY%2fdmnN9A%3d%3d'
               alt='license'
             />
