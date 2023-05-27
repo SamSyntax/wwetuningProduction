@@ -17,7 +17,7 @@ function License() {
           </a>
         </div>
         <div className='md:w-1/2 w-full'>
-          <p className='text-zinc-200 text-md md:text-lg'>
+          <p className='text-zinc-200 text-sm md:text-lg'>
             Jesteśmy profesjonalną firmą zajmującą się tuningiem samochodów, a nasze usługi opierają się na najnowocześniejszych technologiach. W celu
             zapewnienia najwyższej jakości i skuteczności naszych prac, korzystamy z najlepszego oprogramowania do edycji map w sterownikach silnika -
             WinOLS. Dzięki temu możemy zapewnić naszym klientom pełną funkcjonalność programu, a także legalne i zgodne z prawem korzystanie z tej

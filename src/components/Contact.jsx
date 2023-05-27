@@ -49,15 +49,15 @@ function Contact() {
         theme='dark'
       />
       <div className='flex flex-col justify-center items-center p-12 mb-0 gap-5  w-full backdrop-blur-3xl '>
-        <h1 className='text-4xl font-semibold'>Skontaktuj się z nami!</h1>
+        <h1 className='text-4xl font-semibold text-center '>Skontaktuj się z nami!</h1>
         <div>
-          <div className=' flex flex-col justify-center items-start gap-8 px-12 py-12 md:px-24 lg:flex-row md:items-center w-[60vw]'>
+          <div className=' flex flex-col justify-center items-start gap-8  py-12  lg:flex-row md:items-center w-[60vw]'>
             <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
               <HiPhone className='w-[36px] h-[36px]' />
               <p>111-222-333</p>
             </div>
             <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
-              <HiLocationMarker className='sm:w-[72px] sm:h-[72px] md:w-[36px] md:h-[36px]' />
+              <HiLocationMarker className='w-[36px] h-[36px]' />
               <p>
                 00-230, Zielonka <br className='sm:hidden md:block' /> Ul. Zięby 22/3
               </p>

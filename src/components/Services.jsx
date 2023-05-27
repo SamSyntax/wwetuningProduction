@@ -27,17 +27,17 @@ function Services() {
         <div className='col-span-2 md:flex md:items-center justify-center items-end hidden'>
           <h1 className='text-5xl font-semibold'>Czym się zajmujemy</h1>
         </div>
-        <div className='flex flex-col justify-center md:justify-start lg:text-7xl'>
-          <div className='flex items-center gap-8 md:justify-start '>
+        <div className='flex flex-col justify-center md:justify-start lg:text-7xl md:items-start items-center '>
+          <div className='flex items-center gap-8 md:justify-start'>
             <BsClipboard2Check className='lg:w-[80px] lg:h-[80px] lg:block hidden' />
-            <h1 className='md:text-4xl text-5xl font-semibold text-zinc-200'>
-              {counterOn && <CountUp start={0} end={200} duration={3} delay={0.2} />}+ Zadowolonych klientów
+            <h1 className='md:text-4xl text-4xl font-semibold text-zinc-200 text-center md:text-left'>
+              {counterOn && <CountUp start={0} end={200} duration={3} delay={0.2} />}+ <br className='' /> Zadowolonych klientów
             </h1>
           </div>
           <br />
           <div className='flex items-center gap-8 md:justify-start'>
             <BsEvFront className='lg:w-[80px] lg:h-[80px] lg:block hidden' />
-            <h1 className='md:text-4xl text-5xl font-semibold text-zinc-200'>
+            <h1 className='md:text-4xl text-4xl font-semibold text-zinc-200 text-center md:text-left'>
               {counterOn && <CountUp start={0} end={10} duration={3} delay={0.2} />}+ Lat doświadczenia
             </h1>
           </div>
