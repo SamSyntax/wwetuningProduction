@@ -44,7 +44,7 @@ function Services() {
         </div>
         <div className='flex flex-col justify-start  items-center'>
           <h1 className='md:hidden flex text-5xl font-semibold pb-12 text-center'>Czym się zajmujemy</h1>
-          <p className='text-left text-lg lg:text-2xl'>
+          <p className='text-left text-md lg:text-2xl'>
             WWE-TUNING oferuje kompleksowe usługi chip tuningu samochodów dla marek takich jak Audi, BMW, Mercedes-Benz oraz Volkswagen. Usługi
             obejmują chip tuning, optymalizację układu wtryskowego, diagnostykę samochodową, programowanie sterowników oraz montaż akcesoriów
             tuningowych. Zespół firmy składa się z doświadczonych specjalistów, którzy gwarantują najwyższą jakość usług i pełną satysfakcję klientów.
