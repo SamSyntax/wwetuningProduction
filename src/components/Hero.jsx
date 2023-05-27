@@ -20,7 +20,7 @@ function Hero() {
             </div>
             <div className='flex justify-center'>
               <img
-                className='lg:scale-100 sm:scale-75 flex-shrink md:mt-auto mt-24 hover:scale-105 hover:rotate-1 transition-all ease-in-out duration-500'
+                className='lg:scale-100 scale-75 w-fit h-fit md:mt-auto mt-24 hover:scale-105 hover:rotate-1 transition-all ease-in-out duration-500'
                 src={heroimg}
                 alt=''
               />
