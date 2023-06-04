@@ -21,7 +21,20 @@ export default function Blog() {
           <div className='text-zinc-200 bg-red-600 flex w-fit p-2 rounded-md my-2'>Silnik: {review.attributes.description}</div>
           <p className='text-zinc-200 whitespace-pre-line'>{review.attributes.body}</p>
           <div className='py-8 rounded-md'>
-            <img className='rounded-lg' src={review.attributes.splash.data.attributes.url} alt='img' />
+            <img
+              className='rounded-lg'
+              src={review.attributes.splash.data.attributes.url}
+              onError={(event) => (event.target.style.display = "none")}
+              alt='img'
+            />
+            <video
+              className='rounded.lg'
+              src={review.attributes.splash.data.attributes.url}
+              autoPlay='true'
+              muted='true'
+              loop='true'
+              onError={(event) => (event.target.style.display = "none")}
+            />
           </div>
         </div>
       ))}

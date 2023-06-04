@@ -2,7 +2,7 @@ import React from "react"
 
 function License() {
   return (
-    <div className='flex flex-col h-screen w-screen mt-[24rem] lg:mt-0 md:mb-24 gap-12 items-center justify-center px-24'>
+    <div className='flex flex-col h-screen w-screen lg:mt-0 md:mb-24 gap-12 items-center justify-center px-24'>
       <div className=' flex items-center justify-center'>
         <h1 className='text-zinc-200 text-4xl font-semibold'>Licencja WinOLS</h1>
       </div>
