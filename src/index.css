@@ -7,6 +7,9 @@
 body, html {
     font-family: 'Poppins';
     background-image:url(../src/assets/bgmain.png);
+    background-repeat: repeat;
+    background-clip: border-box;
+    background-size: 110%;
     
     
 }

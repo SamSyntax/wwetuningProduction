@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 
 function Hero() {
   return (
-    <div id='Hero' className='w-screen h-full lg:pt-auto px-16 pt-28 flex flex-grow'>
+    <div id='Hero' className='w-screen h-full lg:pt-auto px-16 pt-28 flex'>
       <div className='grid'>
         <div className='flex gap-5 flex-row justify-between'>
           <div className='grid lg:grid-cols-2 lg:grid-rows-1 grid-cols-1 grid-rows-2 w-full h-full'>
@@ -18,9 +18,9 @@ function Hero() {
                 <button className='lg:py-3 md:px-6 mt-3 px-5 py-3 max-w-[240px] text-white font-semibold'>Skontaktuj się</button>
               </a>
             </div>
-            <div className='flex justify-center'>
+            <div className='flex justify-center items-center object-fill'>
               <img
-                className='lg:scale-100 scale-75 w-fit h-fit md:mt-auto mt-24 hover:scale-105 hover:rotate-1 transition-all ease-in-out duration-500'
+                className='lg:scale-100 scale-75 w-fit h-fit md:mt-auto max-w-[16rem] max-h-[16rem]  border hover:scale-105 hover:rotate-1 transition-all ease-in-out duration-500'
                 src={heroimg}
                 alt=''
               />
