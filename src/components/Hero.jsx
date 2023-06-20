@@ -14,7 +14,7 @@ function Hero() {
               <p className='text-2xl font-semibold text-white'>Profesjonalne podejście do klienta</p>
               <h1 className='py-3 text-center lg:text-left text-5xl lg:text-7xl font-bold text-white'>Chiptuning</h1>
               <p className='text-2xl font-semibold text-white'>Eco tuning samochodów ciężarowych oraz maszyn rolniczych.</p>
-              <a href='tel:123-456-7890'>
+              <a href='tel:+48880278024'>
                 <button className='lg:py-3 md:px-6 mt-3 px-5 py-3 max-w-[240px] text-white font-semibold'>Skontaktuj się</button>
               </a>
             </div>

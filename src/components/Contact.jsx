@@ -53,17 +53,23 @@ function Contact() {
         <div>
           <div className=' flex flex-col justify-center items-start gap-8  py-12  lg:flex-row md:items-center w-[60vw]'>
             <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
-              <HiPhone className='w-[36px] h-[36px]' />
-              <p>111-222-333</p>
+              <HiPhone className='min-w-[36px] min-h-[36px]' />
+              <p>+48 880 278 024</p>
             </div>
             <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
-              <HiLocationMarker className='w-[36px] h-[36px]' />
+              <HiLocationMarker className='min-w-[36px] min-h-[36px]' />
               <p>
-                00-230, Zielonka <br className='sm:hidden md:block' /> Ul. Zięby 22/3
+                05-126, Stanisławów Pierwszy <br className='sm:hidden md:block' /> Ul. Słoneczna 1C
               </p>
             </div>
             <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
-              <HiMail className='w-[36px] h-[36px]' />
+              <HiLocationMarker className='min-w-[36px] min-h-[36px]' />
+              <p>
+                07-140, Sadowna <br className='sm:hidden md:block' /> Sokółka 79
+              </p>
+            </div>
+            <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
+              <HiMail className='min-w-[36px] min-h-[36px]' />
               <p>wwe-tuning@o2.pl</p>
             </div>
           </div>
@@ -104,7 +110,7 @@ function Contact() {
             <div className='flex justify-center items-center w-[90%] md:w-full rounded-md'>
               <iframe
                 title='map'
-                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78138.66181657896!2d20.990777206327987!3d52.26457425695786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd02d191332d%3A0x1da8e6079ada47f7!2sLegia%20Warszawa%20SA!5e0!3m2!1sen!2spl!4v1682351706987!5m2!1sen!2spl'
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.0504425988506!2d21.035808576965366!3d52.36950534736039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ec626db2fabe7%3A0x26d912a9a8e5b8a!2sS%C5%82oneczna%201C%2C%2005-126%20Stanis%C5%82aw%C3%B3w%20Pierwszy!5e0!3m2!1sen!2spl!4v1687264138485!5m2!1sen!2spl'
                 width='600'
                 height='450'
                 style={{ border: "0" }}
