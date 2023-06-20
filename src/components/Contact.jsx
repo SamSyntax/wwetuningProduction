@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <div id='Contact' className='section text-white w-screen h-fit lg:h-[1100px] flex justify-center items-start bg-black/20 mt-12 '>
+    <div id='Contact' className='section text-white w-screen h-fit lg:h-[1100px] flex justify-center items-start bg-black/20 mt-14 '>
       <ToastContainer
         icon={false}
         position='top-right'

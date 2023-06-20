@@ -30,7 +30,7 @@ function PortfolioPrev() {
   return (
     <div
       id='Portfolio'
-      className='w-full h-screen flex flex-col justify-center lg:px-24 px-12 lg:mt-auto  section flex-grow lg:mb-[1rem]  mb-[17rem]'
+      className='w-full h-screen flex flex-col justify-center lg:px-24 px-12 lg:mt-auto  section flex-grow lg:mb-[1rem] z-405  mb-[17rem]'
     >
       <div className='flex justify-center items-center align-middle text-center max-w[1240px]  rounded-lg w-[500px] p-8 text-gradient'>
         <h1 className='text-5xl font-semibold text-white text-center'>Nasze wyniki</h1>
