@@ -1,5 +1,6 @@
 import React from "react"
 import ReadMoreReadLess from "./ReadLess"
+import Expandable from "./ReadLess2"
 
 function License() {
   return (
@@ -26,12 +27,20 @@ function License() {
             bezpieczeństwo i prywatność naszych klientów. Dlatego wszystkie prace wykonujemy zgodnie z najwyższymi standardami branżowymi, a wszelkie
             dane klientów są traktowane z pełnym szacunkiem i poufnością.
           </p>
-          <ReadMoreReadLess className='text-zinc-200 text-sm md:text-lg' limit={200}>
+          {/* <ReadMoreReadLess className='text-zinc-200 text-sm md:text-lg' limit={200}>
+            Jesteśmy profesjonalną firmą zajmującą się tuningiem samochodów, a nasze usługi opierają się na najnowocześniejszych technologiach. W celu
+            zapewnienia najwyższej jakości i skuteczności naszych prac, korzystamy z najlepszego oprogramowania do edycji map w sterownikach silnika -
+            WinOLS. Dzięki temu możemy zapewnić naszym klientom pełną funkcjonalność programu, a także legalne i zgodne z prawem korzystanie z tej
+            zaawansowanej technologii. Nie tylko korzystanie z legalnie nabytych licencji jest ważne dla naszej firmy, ale także dbałość o
+            bezpieczeństwo i prywatność naszych klientów. Dlatego wszystkie prace wykonujemy zgodnie z najwyższymi standardami branżowymi, a wszelkie
+            dane klientów są traktowane z pełnym szacunkiem i poufnością.
+          </ReadMoreReadLess> */}
+          <Expandable className='text-zinc-200 text-sm md:text-lg hidden lg:flex'>
             Jesteśmy profesjonalną firmą zajmującą się tuningiem samochodów, a nasze usługi opierają się na najnowocześniejszych technologiach. W celu
             zapewnienia najwyższej jakości i skuteczności naszych prac, korzystamy z najlepszego oprogramowania do edycji map w sterownikach silnika -
             WinOLS. Dzięki temu możemy zapewnić naszym klientom pełną funkcjonalność programu, a także legalne i zgodne z prawem korzystanie z tej
             zaawansowanej technologii.
-          </ReadMoreReadLess>
+          </Expandable>
         </div>
       </div>
     </div>
