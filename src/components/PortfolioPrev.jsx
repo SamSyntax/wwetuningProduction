@@ -1,7 +1,6 @@
-import React from "react"
+import React, { useState } from "react"
 import useFetch from "../hooks/useFetch"
 import { ScaleLoader } from "react-spinners"
-import Magnifier from "react-magnifier"
 
 function PortfolioPrev() {
   const { loading, error, data } = useFetch(
@@ -44,12 +43,6 @@ function PortfolioPrev() {
           {data.data.map((review) => (
             <div className='flex justify-center items-center'>
               <a className='flex justify-center mb-6' href={review.attributes.splash.data.attributes.url} target='blank'>
-                {/* <img
-                  className='md:h-1/4 md:rounded-3xl rounded-2xl h-[80%] w-[80%] hover:scale-105 transition-all ease-in-out duration-200'
-                  src={review.attributes.splash.data.attributes.url}
-                  alt='img'
-                  onError={(event) => (event.target.style.display = "none")}
-                /> */}
                 <img
                   className='md:h-1/4 md:rounded-3xl rounded-4xl h-[80%] w-[80%] hover:scale-105 transition-all ease-in-out duration-200 mx-4'
                   src={review.attributes.splash.data.attributes.url}
