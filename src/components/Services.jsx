@@ -2,24 +2,12 @@ import React, { useState } from "react"
 import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
 import { BsEvFront, BsClipboard2Check } from "react-icons/bs"
-import volkswagen from "../assets/volkswagen.png"
-import bmw from "../assets/bmw.png"
-import mercedes from "../assets/mercedes.png"
-import audi from "../assets/audi.png"
 
 function Services() {
   const [counterOn, setCounterOn] = useState(false)
 
   return (
     <ScrollTrigger className='flex flex-col justify-between' onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-      <div className='flex justify-center items-center w-screen lg:my-2 mt-[16rem] mb-[8rem] md:mb-0 md:mt-8 md:my-[18rem] '>
-        <div className='w-full h-[200px] md:h-[400px] lg:h-[200px]  bg-black/20 lg:flex lg:justify-around backdrop-blur-3xl grid grid-cols-2 grid-rows-2 justify-center items-center '>
-          <img className='md:scale-50 scale-sm hover:scalemark transition-all ease-in-out duration-700' src={volkswagen} alt='' />
-          <img className='md:scale-50 scale-sm hover:scalemark transition-all ease-in-out duration-700' src={bmw} alt='' />
-          <img className='md:scale-50 scale-sm hover:scalemark transition-all ease-in-out duration-700' src={mercedes} alt='' />
-          <img className='md:scale-50 scale-sm hover:scalemark transition-all ease-in-out duration-700' src={audi} alt='' />
-        </div>
-      </div>
       <div
         id='Services'
         className='h-screen w-screen grid md:grid-cols-2 md:grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 px-4 lg:px-24 gap-12   text-zinc-200'

@@ -22,7 +22,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm("service_07a008m", "template_16epufp", form.current, "_NSLjaVPuopq3tOIT").then(
+    emailjs.sendForm("service_lc2sz7m", "template_16epufp", form.current, "_NSLjaVPuopq3tOIT").then(
       (result) => {
         console.log(result.text)
       },
@@ -52,23 +52,23 @@ function Contact() {
         <h1 className='text-4xl font-semibold text-center '>Skontaktuj się z nami!</h1>
         <div>
           <div className=' flex flex-col justify-center items-start gap-8  py-12  lg:flex-row md:items-center w-[60vw]'>
-            <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
+            <div className='flex justify-start items-center gap-8 md:text-xl p-auto m-auto text-sm w-[15rem]'>
               <HiPhone className='min-w-[36px] min-h-[36px]' />
               <p>+48 880 278 024</p>
             </div>
-            <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
+            <div className='flex justify-start items-center gap-8 md:text-xl p-auto m-auto text-sm w-[15rem]'>
               <HiLocationMarker className='min-w-[36px] min-h-[36px]' />
               <p>
                 05-126, Stanisławów Pierwszy <br className='sm:hidden md:block' /> Ul. Słoneczna 1C
               </p>
             </div>
-            <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
+            <div className='flex justify-start items-center gap-8 md:text-xl p-auto m-auto text-sm w-[15rem]'>
               <HiLocationMarker className='min-w-[36px] min-h-[36px]' />
               <p>
-                07-140, Sadowna <br className='sm:hidden md:block' /> Sokółka 79
+                07-140, Sadowne <br className='sm:hidden md:block' /> Sokółka 79
               </p>
             </div>
-            <div className='flex justify-start items-center gap-8 md:text-2xl p-auto m-auto text-sm w-[350px]'>
+            <div className='flex justify-start items-center gap-8 md:text-xl p-auto m-auto text-sm w-[15rem]'>
               <HiMail className='min-w-[36px] min-h-[36px]' />
               <p>wwe-tuning@o2.pl</p>
             </div>

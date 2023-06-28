@@ -6,6 +6,8 @@ import PortfolioPrev from "../components/PortfolioPrev"
 import Services from "../components/Services"
 import bgmain from "../assets/bgmain.png"
 import License from "../components/License"
+import Socials from "../components/Socials"
+import Divider from "../components/Divider"
 
 function App() {
   return (
@@ -16,12 +18,14 @@ function App() {
       className='overflow-hidden scroll-smooth scroll-hidden flex flex-col'
     >
       {/* <Navbar /> */}
-
+      <Socials />
       <Nav />
       <Hero />
-      <PortfolioPrev />
-      <License />
       <Services />
+      <Divider />
+      <License />
+
+      <PortfolioPrev />
       <Contact />
     </div>
   )
