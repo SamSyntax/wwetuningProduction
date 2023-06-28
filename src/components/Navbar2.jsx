@@ -23,10 +23,10 @@ const Nav = () => {
             smooth={true}
             spy={true}
             activeClass='active'
-            to='Portfolio'
+            to='Services'
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center transition-all ease-in-out'
           >
-            <BsClipboardData />
+            <BsBriefcase />
           </Link>
           <Link
             smooth={true}
@@ -41,11 +41,12 @@ const Nav = () => {
             smooth={true}
             spy={true}
             activeClass='active'
-            to='Services'
+            to='Portfolio'
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center transition-all ease-in-out'
           >
-            <BsBriefcase />
+            <BsClipboardData />
           </Link>
+
           <Link
             smooth={true}
             spy={true}
