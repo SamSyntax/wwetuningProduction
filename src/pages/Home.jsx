@@ -8,6 +8,7 @@ import bgmain from "../assets/bgmain.png"
 import License from "../components/License"
 import Socials from "../components/Socials"
 import Divider from "../components/Divider"
+import SimpleSlider from "../components/Slider"
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Services />
       <Divider />
       <License />
-
+      <SimpleSlider />
       <PortfolioPrev />
       <Contact />
     </div>
