@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
 import { BsEvFront, BsClipboard2Check } from "react-icons/bs"
+import { GiHomeGarage } from "react-icons/gi"
 
 function Services() {
   const [counterOn, setCounterOn] = useState(false)
@@ -15,7 +16,12 @@ function Services() {
         <div className='col-span-2 md:flex md:items-center justify-center items-end hidden'>
           <h1 className='text-5xl font-semibold'>Czym się zajmujemy</h1>
         </div>
-        <div className='flex flex-col justify-center md:justify-start lg:text-7xl md:items-start items-center '>
+        <div className='flex flex-col justify-center md:justify-center lg:text-7xl md:items-start items-center'>
+          <div className='flex items-center gap-8 md:justify-start'>
+            <GiHomeGarage className='lg:w-[80px] lg:h-[80px] lg:block hidden pb-2' />
+            <h1 className='md:text-4xl text-4xl font-semibold text-zinc-200 text-center md:text-left'>Niezależny warsztat Volkswagen</h1>
+          </div>
+          <br />
           <div className='flex items-center gap-8 md:justify-start'>
             <BsClipboard2Check className='lg:w-[80px] lg:h-[80px] lg:block hidden' />
             <h1 className='md:text-4xl text-4xl font-semibold text-zinc-200 text-center md:text-left'>
@@ -30,7 +36,7 @@ function Services() {
             </h1>
           </div>
         </div>
-        <div className='flex flex-col justify-start  items-center'>
+        <div className='flex flex-col justify-center  items-center text-center'>
           <h1 className='md:hidden flex text-5xl font-semibold pb-12 text-center'>Czym się zajmujemy</h1>
           <p className='text-left text-sm md:text-md lg:text-2xl'>
             WWE-TUNING oferuje kompleksowe usługi chip tuningu samochodów osobowych dla marek takich jak Audi, BMW, Mercedes-Benz, Volkswagen oraz
