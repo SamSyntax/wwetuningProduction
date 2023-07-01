@@ -20,8 +20,8 @@ export default class SimpleSlider extends Component {
       cssEase: "ease-in-out",
     }
     return (
-      <div className='w-screen bg-black/20 backdrop-blur-3xl'>
-        <Slider {...settings} className='flex items-center justify-center'>
+      <div className={"w-screen bg-black/20 backdrop-blur-3xl mt-24 md:mt-0 mb-0 md:mb-[20rem] lg:mb-0"}>
+        <Slider {...settings} className={"flex items-center justify-center"}>
           <div className='flex align-middle  items-center justify-center w-screen'>
             <div className='flex items-center justify-center h-[15rem]'>
               <img src={MagicMotosports} alt='MagicMotosports' className='max-h-[15rem]' />

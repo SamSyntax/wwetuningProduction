@@ -10,7 +10,7 @@ function Services() {
     <ScrollTrigger className='flex flex-col justify-between' onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
       <div
         id='Services'
-        className='h-screen w-screen grid md:grid-cols-2 md:grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 px-4 lg:px-24 gap-12   text-zinc-200'
+        className='h-screen w-screen grid md:grid-cols-2 md:grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 px-4 lg:px-24 gap-12 lg:mt-0 md:mb-24   text-zinc-200'
       >
         <div className='col-span-2 md:flex md:items-center justify-center items-end hidden'>
           <h1 className='text-5xl font-semibold'>Czym się zajmujemy</h1>

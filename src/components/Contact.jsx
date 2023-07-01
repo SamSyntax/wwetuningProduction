@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <div id='Contact' className='section text-white w-screen h-fit lg:h-[1100px] flex justify-center items-start bg-black/20 mt-14 '>
+    <div className='section text-white w-screen h-fit lg:h-[1100px] flex justify-center items-start bg-black/20 mt-14 '>
       <ToastContainer
         icon={false}
         position='top-right'
@@ -49,9 +49,11 @@ function Contact() {
         theme='dark'
       />
       <div className='flex flex-col justify-center items-center p-12 mb-0 gap-5  w-full backdrop-blur-3xl '>
-        <h1 className='text-4xl font-semibold text-center '>Skontaktuj się z nami!</h1>
+        <h1 id='Contact' className='text-4xl font-semibold text-center '>
+          Skontaktuj się z nami!
+        </h1>
         <div>
-          <div className=' flex flex-col justify-center items-start gap-8  py-12  lg:flex-row md:items-center w-[60vw]'>
+          <div className=' flex flex-col justify-center items-start gap-8  py-12  lg:flex-row md:items-center md:w-[70vw] w-[60vw]'>
             <div className='flex justify-start items-center gap-8 md:text-xl p-auto m-auto text-sm w-[15rem]'>
               <HiPhone className='min-w-[36px] min-h-[36px]' />
               <p>+48 880 278 024</p>
