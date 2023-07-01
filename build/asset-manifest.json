@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c95903f3.css",
-    "main.js": "/static/js/main.f396e34e.js",
+    "main.js": "/static/js/main.ea75dc0e.js",
     "static/media/heroimg.png": "/static/media/heroimg.ba6fe42d4244ecdf81ee.png",
     "static/media/bgmain.png": "/static/media/bgmain.67650fce6126aa6b6012.png",
     "static/media/MagicMotosports.png": "/static/media/MagicMotosports.125e196d4b63c406ea6a.png",
@@ -19,10 +19,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c95903f3.css.map": "/static/css/main.c95903f3.css.map",
-    "main.f396e34e.js.map": "/static/js/main.f396e34e.js.map"
+    "main.ea75dc0e.js.map": "/static/js/main.ea75dc0e.js.map"
   },
   "entrypoints": [
     "static/css/main.c95903f3.css",
-    "static/js/main.f396e34e.js"
+    "static/js/main.ea75dc0e.js"
   ]
 }

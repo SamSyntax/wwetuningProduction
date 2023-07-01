@@ -19,7 +19,7 @@ function Services() {
         <div className='flex flex-col justify-center md:justify-center lg:text-7xl md:items-start items-center'>
           <div className='flex items-center gap-8 md:justify-start'>
             <GiHomeGarage className='lg:w-[80px] lg:h-[80px] lg:block hidden pb-2' />
-            <h1 className='md:text-4xl text-4xl font-semibold text-zinc-200 text-center md:text-left'>Niezależny warsztat Volkswagen</h1>
+            <h1 className='md:text-4xl text-4xl font-semibold text-zinc-200 text-center md:text-left'>Niezależny warsztat VW Group</h1>
           </div>
           <br />
           <div className='flex items-center gap-8 md:justify-start'>
