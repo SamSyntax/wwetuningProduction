@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import useFetch from "../hooks/useFetch"
 import { ScaleLoader } from "react-spinners"
 
@@ -33,10 +33,6 @@ function PortfolioPrev() {
       </div>
       <div className='lg:w-full w-full flex flex-col justify-center items-center'>
         <div className='flex flex-col lg:flex-row justify-center items-center w-[1/4]'>
-          {/* <li key={blogPost.id}>{blogPost.title}</li> */}
-          {/* <img className='p-2 md:w-1/4 md:rounded-3xl rounded-2xl w-[40%]' src={placeholder} alt='' />
-          <img className='p-2 md:w-1/4 md:rounded-3xl rounded-2xl w-[40%]' src={placeholder} alt='' />
-          <img className='p-2 md:w-1/4 md:rounded-3xl rounded-2xl w-[40%]' src={placeholder} alt='' /> */}
           {data.data.map((review) => (
             <div className='flex justify-center items-center'>
               <a className='flex justify-center mb-6' href={review.attributes.splash.data.attributes.url} target='blank'>
