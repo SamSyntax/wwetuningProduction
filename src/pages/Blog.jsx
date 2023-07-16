@@ -1,15 +1,10 @@
 import React from "react"
 import Navbar from "../components/Navbar"
 import useFetch from "../hooks/useFetch"
-import { ScaleLoader } from "react-spinners"
+
 
 export default function Blog() {
   const { loading, error, data } = useFetch("https://strapi-production-a18c.up.railway.app/api/reviews?sort[1]=datePublished:DESC&populate=*")
-  const override: CSSProperties = {
-    display: "block",
-    margin: "0 auto",
-    borderColor: "red",
-  }
 
   if (loading) return <div></div>
   if (error) return <p className='text-zinc-200'>Error</p>
