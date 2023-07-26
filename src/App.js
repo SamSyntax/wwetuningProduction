@@ -23,7 +23,12 @@ function App() {
     <div>
       {loading ? (
         <div className='w-full h-screen bg-inherit flex justify-center items-center'>
-          <ScaleLoader css={override} size={150} color={"#eb2f4b"} loading={loading} />
+          <ScaleLoader
+            css={override}
+            size={150}
+            color={"#eb2f4b"}
+            loading={loading}
+          />
         </div>
       ) : (
         <Router>
